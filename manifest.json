@@ -1,0 +1,11 @@
+{
+  "name": "Aspectre",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Turns a 16:9 html5 video element to 4:3",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
